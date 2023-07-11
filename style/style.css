@@ -63,10 +63,28 @@ body{
 /*featured style end..*/
 /*flower tree style start*/
 .flower-container{
+    display: flex;
+    justify-content: space-around;
+    gap:24px;
+    height: 100vh;
+}
+
+.flower-box-1{
+    width: 280px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower-box-2{
+    width: 280px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);  
 
 }
-.flower-box{
-    width: 400px;
-    height: 500px;
-    background-color: red;
+.flower-box-3{
+    width: 280px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
