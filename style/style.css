@@ -40,8 +40,33 @@ body{
 }
 .header-description{
     font-weight: 300;
-    line-height:30px;
-    font-size: 18px;
+    line-height:25px;
+    font-size: 15px;
     color:rgba(39, 39, 39, 0.60);
     margin-bottom: 10px;
+}
+/* header style end..*/
+/* featured style start*/
+.featured-title{
+    text-align: center;
+    margin-top:100px;
+    font-weight: 800;
+    
+}
+.featured-description{
+    text-align: center;
+    margin-top: 10px;
+    color:rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    line-height: 20px;
+}
+/*featured style end..*/
+/*flower tree style start*/
+.flower-container{
+
+}
+.flower-box{
+    width: 400px;
+    height: 500px;
+    background-color: red;
 }
