@@ -198,3 +198,15 @@ justify-content: space-around;
     height: 280px;
 }
 /*instgram style end*/
+/* bachground-iamge start section*/
+.bg-container{
+    width: 900px;
+    height: 450px;
+    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-size: 900px;
+    background-repeat:no-repeat;
+    margin-top: 60px;
+    margin-left:140px;
+}
+
+
