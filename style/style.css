@@ -2,6 +2,23 @@
     margin:0;
     padding:0;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*common/share style for button */
+.btn-primary{
+    padding:12px;
+    color:white;
+    background-color:#E55473;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 150px;
+    height: auto;
+    
+}
+.btn-primary:hover{
+    background-color:red;
+}
 /*header stye start*/
 .header-container{
     display: flex;
@@ -9,7 +26,22 @@
     align-items: center; 
    background: rgba(229, 84, 115, 0.10);;
 }
+
 .header-img{
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
+}
+.header-title{
+   color:#272727;
+   font-size: larger;
+   font-weight: 800;
+   margin-bottom: 8px;
+  
+}
+.header-description{
+    font-weight: 300;
+    line-height:30px;
+    font-size: 18px;
+    color:rgba(39, 39, 39, 0.60);
+    margin-bottom: 10px;
 }
