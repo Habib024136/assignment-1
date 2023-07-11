@@ -203,7 +203,7 @@ justify-content: space-around;
 .bg-container{
     width: 900px;
     height: 550px;
-    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-image: url("/Flower Asset/Rectangle 9.png");
     background-size: 900px;
     background-repeat:no-repeat;
     margin-top: 60px;
