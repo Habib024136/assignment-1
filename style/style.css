@@ -201,12 +201,57 @@ justify-content: space-around;
 /* bachground-iamge start section*/
 .bg-container{
     width: 900px;
-    height: 450px;
+    height: 550px;
     background-image: url("/Flower Asset/Rectangle 9.png");
     background-size: 900px;
     background-repeat:no-repeat;
     margin-top: 60px;
     margin-left:140px;
+    position:relative;
+}
+.img-title{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left:280px;
+    top:55px;
+    position:absolute;
+}
+.img-description{
+    position:absolute;
+    text-align: center;
+    margin-top: 0px;
+    color:rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    line-height: 20px;
+    margin-left:320px;
+    top:100px;
 }
 
-
+input{
+    position:absolute;
+    margin-left:150px;
+    width:55%;
+    background-color:#fff;
+    color:#757575;
+    border-radius:5px;
+    padding:10px;
+    top:125px;
+}
+.btn-primary-2{
+    position: absolute;
+    padding: 12px;
+    color: white;
+    background-color: #E55473;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 150px;
+    height:40px;
+    margin-left: 675px;
+    float: left;
+    top: 123px;
+}
+.btn-primary-2:hover{
+    background-color: red;
+}
