@@ -168,8 +168,7 @@ right: 39px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top:100px;
-
-    height: 600px;
+    height: 500px;
 }
 .sign-title{
     color: #272727;
@@ -188,3 +187,14 @@ right: 39px;
     margin-left:155px;
 }
 /*delevery informaton section end*/
+/*instgram style start*/
+.instgram-containe{
+display:flex;
+justify-content: space-around;
+}
+.ins-img{
+    margin-left: 43px;
+    width: 250px;
+    height: 280px;
+}
+/*instgram style end*/
