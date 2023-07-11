@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+    position: relative;
 }
 span{
     color:red;
@@ -254,4 +255,41 @@ input{
 }
 .btn-primary-2:hover{
     background-color: red;
+}
+/* bachground-iamge  section end*/
+.footer-container{
+    position: absolute;
+    height: 200px;
+    width: 100vh;
+    margin-bottom: 800px;
+    background-color: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    bottom: -981px;
+}
+.div-clear{
+    clear:both;
+}
+
+.footer-title{
+    text-align: center;
+    margin-top:100px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+  
+        text-align: center;
+        margin-top: 10px; 
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 30px;
+}
+.end-description{
+    text-align: center;
+    margin-top: -25px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+    line-height: 20px;
+    height: auto;
 }
