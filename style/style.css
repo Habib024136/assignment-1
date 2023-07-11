@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: space-around;
     
-    height: 100vh;
+    height:;
 }
 
 .flower-box-1{
@@ -115,5 +115,13 @@ right: 39px;
 .flower-img-3{
     width: 200px;
     height:330px;
+}
+.flower-title{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top:22px;
+    text-decoration-line: underline;
+    font-size: 15px;
 }
 /*flower box end */
