@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*header stye start*/
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+   background: rgba(229, 84, 115, 0.10);;
+}
+.header-img{
+    width: 300px;
+    height: 350px;
+}
